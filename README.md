@@ -3,7 +3,12 @@
 ## Project Overview of the Analysis
 #### This project was conducted to help the manufacturing team at AutosRUs overcome production troubles with their new prototype, the **MechaCar**.
 * The goal of this project was to:
-    * perform multiple linear regression analyses to identify 
+    * Perform multiple linear regression analysis to identify which variables in the dataset predict the MPG of MechaCar prototypes
+    * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from three different manufacturing lots
+    * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+    * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+
+
 The Vine Program helps promote customer feedback through reviews of products they are provided by Amazon.  Companies that use Amazon for their distribution pay a fee to Amazon to have their products reviewed.  Amazon provides review information for a wide range of product categories and makes them available through their Amazon Simple Storage Service (Amazon S3).  This analysis was done on a dataset of reviews for the **tool** category.
 
 #### Resources
