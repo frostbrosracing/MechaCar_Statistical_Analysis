@@ -8,12 +8,13 @@ car_table <- read.csv(file='MechaCar_mpg.csv', check.names=F,stringsAsFactors = 
 # Perform linear regression using the lm() function. 
 # In the lm() function, pass in all six variables (i.e., columns), 
 # and add the dataframe as the data parameter.
-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,car_table)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance 
+   + AWD,car_table)
 
 # Using the summary() function, determine the p-value and 
 # the r-squared value for the linear regression model.
-summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,car_table))
-
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance 
+  + AWD,car_table))
 
 # Deliverable 2
 # Import and read in the Suspension_Coil.csv file as a table
@@ -41,9 +42,6 @@ t.test(suspension_table$PSI,y=NULL,mu=1500)
 
 # Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function 
 # and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
-
-# PSI across all manufacturing lots
-t.test(subset(suspension_table$PSI, Manufacturing_Lot =="Lot1"), y=NULL, mu=1500)
 
 # PSI across Lot 1
 lot1 = subset(suspension_table, Manufacturing_Lot =="Lot1")
