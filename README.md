@@ -9,7 +9,7 @@
     * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 #### Resources
-- Data Source: <p>
+- Data Sources:<br>
 `MechaCar_mpg.csv`<br>`Suspension_Coil.csv`
 
 - Software:  Google Colab, Jupyter Notebook
