@@ -40,6 +40,7 @@ In order to determine if the manufacturing lots are statistically different from
 ![t_test_all](https://user-images.githubusercontent.com/77071776/122685566-c34e7100-d1d1-11eb-92e4-5f1a92ec962f.PNG)
 
 *  Lot 1 was tested against the specification of 1500 PSI.  The p-value of 1 indicates that the lot is not statistically different from the mean population.
+
 ![t_test_lot1](https://user-images.githubusercontent.com/77071776/122685717-cac24a00-d1d2-11eb-98eb-d74748e6c2ba.PNG)
 
 *  Lot 2 was tested against the specification of 1500 PSI.  The p-value of 0.6072 indicates that the lot is not statistically different from the mean population.
