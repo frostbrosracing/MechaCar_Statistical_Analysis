@@ -50,4 +50,3 @@ In order to determine if the manufacturing lots are statistically different from
 *  Lot 3 was tested against the specification of 1500 PSI.  The p-value of 0.04168 indicates that the entire lot **IS** statistically different from the mean population.
 
 ![t_test_lot3](https://user-images.githubusercontent.com/77071776/122685756-f9402500-d1d2-11eb-8af0-7e7ee94064ca.PNG)
-
