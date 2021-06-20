@@ -12,9 +12,8 @@
 - Data Sources:<br>
 `MechaCar_mpg.csv`<br>`Suspension_Coil.csv`
 
-- Software:  Google Colab, Jupyter Notebook
-- Languages: PySpark, Pandas, Python
-- Database Resources:  Amazon Web Services (AWS), PostGreSQL, pgAdmin4
+- Software:  RStudio Version 1.4.1717
+- Languages: R
   
 ## Results of the Analysis
 * The tools dataset contained over 1.7 million reviews.
