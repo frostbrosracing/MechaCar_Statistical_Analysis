@@ -23,4 +23,14 @@ Using the **R** Programming Language, a code was written to perform linear regre
 * The slope of the linear model is **not considered to be zero** because we've rejected the null hypothesis.  The null hypothesis is that there is no relationship between the dependent variable of MPG and each of the independent variables.  Because the p-value for the combined linear model is 5.35e-11 we've calculated that the overall statistical significance is well within the 0.05 range.  If vehicle length and ground clearance were not independent variables in this linear model we would fail to reject the null hypothesis.
 * This linear model is fairly adequate at predicting MPG because of the overwhelming significance that ground clearance and vehicle height introduce into the model.
     
+## Summary Statistics on Suspension Coils
+The specifications of the MechaCar dictate that the variance of the coils must not exceed 100 PSI.  By analyzing the data for all the manufacturing lots combined, we can see that the production of the coils is within the allowed range.
+
+![total_summary](https://user-images.githubusercontent.com/77071776/122684798-533dec00-d1cd-11eb-8297-4be81951e900.PNG)
+
+One of the manufacturing challenges AutosRUs is facing with the MechaCar is in the production of the suspension coils in Lot 3.  By analyzing the data for each of the different manufacturing lots, we can see that the production of the coils in this lot is out of specification by almost double the allowed range.  This could be as a result of the wear and tear on the tooling and equipment used in the production.  
+
+![lot_summary](https://user-images.githubusercontent.com/77071776/122684694-87fd7380-d1cc-11eb-8915-0ba70bf928d2.PNG)
+
+
 ## Summary
