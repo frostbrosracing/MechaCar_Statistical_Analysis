@@ -8,12 +8,9 @@
     * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
     * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
-
-The Vine Program helps promote customer feedback through reviews of products they are provided by Amazon.  Companies that use Amazon for their distribution pay a fee to Amazon to have their products reviewed.  Amazon provides review information for a wide range of product categories and makes them available through their Amazon Simple Storage Service (Amazon S3).  This analysis was done on a dataset of reviews for the **tool** category.
-
 #### Resources
 - Data Source: <p>
-`https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Tools_v1_00.tsv.gz`
+`MechaCar_mpg.csv`<br>`Suspension_Coil.csv`
 
 - Software:  Google Colab, Jupyter Notebook
 - Languages: PySpark, Pandas, Python
