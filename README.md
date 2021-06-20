@@ -32,5 +32,15 @@ One of the manufacturing challenges AutosRUs is facing with the MechaCar is in t
 
 ![lot_summary](https://user-images.githubusercontent.com/77071776/122684694-87fd7380-d1cc-11eb-8915-0ba70bf928d2.PNG)
 
+## T-Tests on Suspension Coils
+In order to determine if the manufacturing lots are statistically different from the mean population, four t-tests were conducted.
+
+*  In the first t-test, the entire production of suspension coils was tested against the specification of 1500 PSI.  Assuming our significance level was the common 0.05 percent, our p-value of 0.06028 is above our significance level which indicates that the entire lot as a whole is not statistically different from the mean population.
+ 
+![t_test_all](https://user-images.githubusercontent.com/77071776/122685566-c34e7100-d1d1-11eb-92e4-5f1a92ec962f.PNG)
+
+*  
+*  Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
 
 ## Summary
