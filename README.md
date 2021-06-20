@@ -50,3 +50,16 @@ In order to determine if the manufacturing lots are statistically different from
 *  Lot 3 was tested against the specification of 1500 PSI.  The p-value of 0.04168 indicates that the entire lot **IS** statistically different from the mean population.
 
 ![t_test_lot3](https://user-images.githubusercontent.com/77071776/122685756-f9402500-d1d2-11eb-8af0-7e7ee94064ca.PNG)
+
+## Study Design: MechaCar vs Competition
+Consumers have many options when shopping for a new vehicle.  One of the factors highly considered during the selection process is vehicle safety.  In order to see where the MechaCar stands among its competitors in the market, a statistical study could be undertaken to quantify where it ranks against the competition.
+
+* The National Highway Traffic Safety Adminstration (NHTSA) provides rating information that is readily available to the public for most current production vehicles.
+  * Metrics to be tested:
+    * Fronal Crash
+    * Side Crash
+    * Rollover
+* Null hypothesis or alternative hypothesis:
+* What statistical test to use to test the hypothesis? And why?
+* What data is needed to run the statistical test?
+
