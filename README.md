@@ -35,12 +35,19 @@ One of the manufacturing challenges AutosRUs is facing with the MechaCar is in t
 ## T-Tests on Suspension Coils
 In order to determine if the manufacturing lots are statistically different from the mean population, four t-tests were conducted.
 
-*  In the first t-test, the entire production of suspension coils was tested against the specification of 1500 PSI.  Assuming our significance level was the common 0.05 percent, our p-value of 0.06028 is above our significance level which indicates that the entire lot as a whole is not statistically different from the mean population.
+*  The entire production of suspension coils was tested against the specification of 1500 PSI.  Assuming our significance level was the common 0.05 percent, the p-value of 0.06028 is above our significance level which indicates that the entire lot as a whole is not statistically different from the mean population.
  
 ![t_test_all](https://user-images.githubusercontent.com/77071776/122685566-c34e7100-d1d1-11eb-92e4-5f1a92ec962f.PNG)
 
-*  
-*  Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+*  Lot 1 was tested against the specification of 1500 PSI.  The p-value of 1 indicates that the lot is not statistically different from the mean population.
+![t_test_lot1](https://user-images.githubusercontent.com/77071776/122685717-cac24a00-d1d2-11eb-98eb-d74748e6c2ba.PNG)
 
+*  Lot 2 was tested against the specification of 1500 PSI.  The p-value of 0.6072 indicates that the lot is not statistically different from the mean population.
+
+![t_test_lot2](https://user-images.githubusercontent.com/77071776/122685746-eb8a9f80-d1d2-11eb-844f-9d7a0a360e84.PNG)
+
+*  Lot 3 was tested against the specification of 1500 PSI.  The p-value of 0.04168 indicates that the entire lot **IS** statistically different from the mean population.
+
+![t_test_lot3](https://user-images.githubusercontent.com/77071776/122685756-f9402500-d1d2-11eb-8af0-7e7ee94064ca.PNG)
 
 ## Summary
