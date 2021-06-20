@@ -18,7 +18,8 @@
 ## Linear Regression to Predict MPG
 Using the **R** Programming Language, a code was written to perform linear regression comparing the vehicles fuel effiency (MPG) based on five factors:  vehicle length, vehicle weight, spoiler angle, ground clearance, and the drive configuration (AWD, "yes" or "no").
 ![MPG_Linear_Regression](https://user-images.githubusercontent.com/77071776/122681679-2da7e700-d1bb-11eb-81bb-b9899d18f288.PNG)
-
+* The two variables that provided a non-random amount of variance to the mpg values in the dataset were the **vehicle length"" and the **ground clearance**.  This is shown in the table above with the p-value of the vehicle length being 2.60e-08 and the p-value of the ground clearance being 5.21e-08.
+*   
 
     
 ## Summary
