@@ -55,11 +55,11 @@ In order to determine if the manufacturing lots are statistically different from
 Consumers have many options when shopping for a new vehicle.  One of the factors highly considered during the selection process is vehicle safety.  In order to see where the MechaCar stands among its competitors in the market, a statistical study could be undertaken to quantify where it ranks against the competition.
 
 * The National Highway Traffic Safety Adminstration (NHTSA) provides rating information that is readily available to the public for most current production vehicles.
-  * Metrics to be tested:
-    * Fronal Crash
+  * In order to compare the MechaCar to other vehicles in its category, the following metrics could be tested:
+    * Frontal Crash
     * Side Crash
     * Rollover
-* Null hypothesis or alternative hypothesis:
-* What statistical test to use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+* The alternative test to be conducted is that the MechaCar's superior rating is far superior to all it's competitors.
+* The statistical test that is would be run is a Two-Sample t-Test for each of the measured ratings.
+* The data needed to conduct this testing would be provided from the NHTSA's database containing Frontal Crash, Side Crash and Rollover information in the auto industry.
 
